@@ -19,8 +19,9 @@ for i in range(init.shape[0]):
 print(init)
 
 i = 0
+coins = 8
 while is_found_full(found) == False:
-    random.seed(i)
+    random.seed(i + coins)
     for row in init:
         random.shuffle(row)
 

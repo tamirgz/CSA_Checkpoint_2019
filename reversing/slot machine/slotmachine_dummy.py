@@ -5,7 +5,7 @@ import random
 import collections
 
 # from .secret import flag
-flag = "ABCD"
+flag = "CSA{ABCDEFGH}"
 
 PRINTABLE = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 flag_length = len(flag)
